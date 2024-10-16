@@ -227,3 +227,31 @@ header{
 
 
 }
+
+
+@media (max-width:1000px) {
+    nav {
+        display: none;
+    }
+    /* .parti{
+        width: 100%;
+        
+       
+       
+        position: absolute;
+        top:-125px;
+        
+    }
+    .parti1{
+        width: 90%;
+        
+        background-color: #4D2C5E;
+        margin: 0 auto;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    } */
+}
