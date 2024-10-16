@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+/* acceuil */
+.acceuil{
+    height: 100vh;
+    width: 100%;
+    background-color: #FDF8EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.responsive-acceuil{
+    max-width: 1250px;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100%;
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.menu-nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+    gap: 50px;
+}
+.menu-nav nav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+    gap: 10px;
+}
+.menu-nav  li{
+    list-style-type: none;
+}
+.menu-nav  a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.menu-nav button{
+    background-color: #4D2C5E;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.block-acceuil{
+    height: 500px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.block-acceuil1{
+    height: 500px;
+    width: 50%;
+    padding-right: 50px;
+   
+}
+.block-acceuil2{
+    height: 500px;
+    width: 50%;
+   
+}
+.block-input{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 70px;
+    border-radius: 20px;
+    padding:5px;
+    
+
+    
+}
+
+.block-input button{
+    background-color: #4D2C5E;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    
+    
+}
+.block-input input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: white;
+    outline: none;
+    padding-left: 10px;
+}
+/* acceuil */
+
+.parti{
+    width: 100%;
+    height: 250px;
+   
+   
+    position: absolute;
+    top:-125px;
+    
+}
+.parti1{
+    width: 90%;
+    height: 100%;
+    background-color: #4D2C5E;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.parti1-1 {
+    width: 33%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+}
+.travaux{
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.responsive-travaux{
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 170px;
+
+}
+
+.block-travaux{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+
+    gap: 10px;
+    margin-top: 30px;
+}
+.block-travaux1{
+    width: 30%;
+    height: 100%;
+    
+    position: relative;
+   
+}
+.block-travaux1-1{
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 7px;
+    box-shadow: 0.5px 0.5px 6px 3px rgb(233, 233, 233);
+}
+
+.gagner{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.responsive-gagner{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+
+
+}
